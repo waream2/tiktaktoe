@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <Title>Tic Tac Toe</Title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+
+<div id = "panel"> 
+    <h1>Tic-Tac-Toe</h1>
+    <p>Enter a player one and a player two and click start to get started.</p>
+    <div id = "forms">
+        <div class ="form">
+            <label class = "form-label"> Player 1</label>
+            <input type = "text" id = "first-player"></input>
+        </div>
+        <div class = "form">
+            <label class = "form-label">Player 2</label>
+            <input type = "text" id = "second-player"></input>
+        </div>
+        <button id = "start" disabled >Start Game</button>
+    </div>
+
+</div>
+<div id = "reset-play-again">
+<button id = "resetButton" class = "hidden">New Game</button> 
+<button id = "play-again" class = "hidden">Play Again</button>
+</div>
+
+
+
+
+<div id = "boardHome" class = "hidden" >
+
+    <div id = "board">
+
+            <div class = "grid" id = "grid0"></div>
+            <div class = "grid" id = "grid1"></div>
+            <div class = "grid" id = "grid2"></div>
+            <div class = "grid" id = "grid3"></div>
+            <div class = "grid" id = "grid4"></div>
+            <div class = "grid" id = "grid5"></div>
+            <div class = "grid" id = "grid6"></div>
+            <div class = "grid" id = "grid7"></div>
+            <div class = "grid" id = "grid8"></div> 
+    
+    </div>
+</div>
+
+
+<div id = resultsDisplay class = "hidden">
+    <div id = "results">
+        <img src = "sparkle .png" class = "blur"></img>
+        <div id = "winner"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
