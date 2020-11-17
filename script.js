@@ -34,7 +34,7 @@ const displayController = (() => {
     
     function noOneWins() {
         document.getElementById("resultsDisplay").classList.remove("hidden")
-        document.getElementById("winner").innerHTML = `It's a tie, play again` 
+        document.getElementById("winner").innerHTML = `It's a tie!` 
         document.getElementById("boardHome").classList.add("hidden");
     }
 
