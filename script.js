@@ -157,6 +157,7 @@ const displayController = (() => {
             document.getElementById("winner").innerHTML = ""
             newGame.classList.add("hidden")
             check = true;
+            start.disabled = true;
         };             
     });
 
