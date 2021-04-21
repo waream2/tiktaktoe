@@ -1,4 +1,4 @@
-# tiktaktoe
+# Tik Tak Toe
 
 Created a app that allows for two users to play Tic Tac Toe.
 
